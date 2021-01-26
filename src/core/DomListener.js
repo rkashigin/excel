@@ -1,9 +1,9 @@
 import {capitalize} from "@core/utils";
 
-export class DOMListener {
+export class DomListener {
   constructor($root, listeners = []) {
     if (!$root) {
-      throw new Error("Root element has not been provided for DOMListener");
+      throw new Error("Root element has not been provided for DomListener");
     }
     this.$root = $root;
     this.listeners = listeners;
