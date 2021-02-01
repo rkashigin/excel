@@ -20,7 +20,6 @@ export function resizeHandler($root, event) {
         right: -delta + "px",
         height: $root.$el.scrollHeight - 2 + "px"
       });
-      console.log($root.$el.scrollHeight);
     } else {
       const delta = e.pageY - coords.bottom;
       value = coords.height + delta;
@@ -28,7 +27,6 @@ export function resizeHandler($root, event) {
         bottom: -delta + "px",
         width: $root.$el.scrollWidth - 2 + "px"
       });
-      console.log($root.$el.scrollWidth);
     }
   };
 
