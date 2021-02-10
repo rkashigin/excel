@@ -1,7 +1,7 @@
 import {
   APPLY_STYLE,
   CHANGE_STYLES,
-  CHANGE_TEXT,
+  CHANGE_TEXT, CHANGE_TITLE,
   TABLE_RESIZE
 } from "@/redux/types";
 
@@ -25,6 +25,14 @@ export function changeStyles(data) {
     data
   };
 }
+
+export function changeTitle(data) {
+  return {
+    type: CHANGE_TITLE,
+    data
+  };
+}
+
 
 export function applyStyle(data) {
   return {
