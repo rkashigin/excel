@@ -85,6 +85,13 @@ class Dom {
     styles.forEach(style => this.$el.style.removeProperty(style));
   }
 
+  getStyles(styles = []) {
+    return styles.reduce((result, style) => {
+      result[style] = this.$el.style[style];
+      return result;
+    }, {});
+  }
+
   addClass(className) {
     this.$el.classList.add(className);
     return this;
