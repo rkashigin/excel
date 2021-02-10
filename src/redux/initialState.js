@@ -2,7 +2,9 @@ import {storage} from "@core/utils";
 
 const defaulState = {
   rowState: {},
-  colState: {}
+  colState: {},
+  dataState: {},
+  currentText: ""
 };
 
 export const initialState = storage("excel-state")
