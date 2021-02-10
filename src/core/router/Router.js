@@ -1,5 +1,5 @@
-import {$} from "@core/Dom";
-import {ActiveRoute} from "@core/router/ActiveRoute";
+import {$} from "../Dom";
+import {ActiveRoute} from "./ActiveRoute";
 
 export class Router {
   constructor(selector, routes) {
