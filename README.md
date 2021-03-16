@@ -19,22 +19,22 @@ _Project purpose: build an SPA without any existed UI frameworks and/or librarie
 
 ### Home page without existing tables
 
-![Home page preview](screenshots/main-page-no-tables.png)
+![Home page without tables preview](screenshots/main-page-no-tables.png)
 
 ### Home page with existing tables
 
-![Home page preview](screenshots/main-page-with-tables.png)
+![Home page with tables preview](screenshots/main-page-with-tables.png)
 
 ### New table page
 
-![Sign in page preview](screenshots/new-table.png)
+![New table page preview](screenshots/new-table.png)
 
 ### Multiple selection
 
-![Sign up page preview](screenshots/multiple-selection.png)
+![Multiple selection preview](screenshots/multiple-selection.png)
 
 ### Styled cells
 
-![Profile choosing preview](screenshots/styled-cells-1.png)
+![Styled cells one preview](screenshots/styled-cells-1.png)
 
-![Profile choosing preview](screenshots/styled-cells-2.png
+![Styled cells two preview](screenshots/styled-cells-2.png)
